@@ -1,0 +1,32 @@
+{
+  "name": "streetends-api",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^16.6.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "forever": "^4.0.1",
+    "node-fetch": "^2.6.5"
+  },
+  "scripts": {
+    "start": "forever -a index.js",
+    "dev": "nodemon index"
+  },
+  "description": "API services for streetends.org",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brendenwest/streetends-api"
+  },
+  "author": "Brenden West",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendenwest/streetends-api/issues"
+  },
+  "homepage": "https://github.com/brendenwest/streetends-api"
+}
